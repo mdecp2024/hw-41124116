@@ -9,12 +9,11 @@
 <p>Teams 線上教學:</p>
 <p style="padding-left: 30px;">以 "學號@nfu.edu.tw" 登入 <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a> Office 365</p>
 <p style="padding-left: 30px;">Teams 團隊代碼: <span>ldodwua</span></p>
-<p>個人倉儲:https://github.com/mdecp2024/hw-41124116</p>
-<p>個人網站:https://mdecp2024.github.io/hw-41124116/content/index.html</p>
+<p>個人倉儲:<a href="https://github.com/mdecp2024/hw-41124116">https://github.com/mdecp2024/hw-41124116</a></p>
+<p>個人網站:<a href="https://mdecp2024.github.io/hw-41124116/content/index.html">https://mdecp2024.github.io/hw-41124116/content/index.html</a></p>
 <p>其他資訊:</p>
 <p style="padding-left: 30px;"><a href="/downloads/cd2023_pj3ag4_zmq_football_4.7.7z">cd2023_pj3ag4_zmq_football_4.7.7z</a></p>
-<p style="padding-left: 30px;"><a href="https://localhost:9446/downloads/cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z">cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z</a></p>
-<h1>Attendance</h1>
+<p style="padding-left: 30px;"><a href="https://localhost:9446/downloads/cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z">cd2024_2b_g6_steel_ball_platform_nxopen_copsim.7z</a></p><h1>Attendance</h1>
 <p>出席 (10%) - 自行舉證評分</p>
 <p>自行利用 Github commits 提交記錄評分.</p>
 <h1>HW 1</h1>
@@ -73,7 +72,11 @@
 <p><code>i ** 2</code><span> </span>會計算每個數字的平方並打印出來。</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/INrs2LS8PzA?si=cdJZBaSF8gEF_2ll" title="YouTube video player" width="560"></iframe></p>
 <h3>w13_hw</h3>
-<h3>w14_hw</h3>
+<p><span>W13題目:<a href="https://mdecp2024.github.io/hw-41124116/content/Brython.html?src=https://gist.githubusercontent.com/41124116/4f9faf77ac733eb66e95d74700c265fe/raw/b2b372aa716a79f4694f46d45b0dc92c523a1739/41124116.py">重疊方形</a></span></p>
+<p><span>程式語法:</span></p>
+<p><span>from browser import html #導入html函式庫<br/>from browser import document as doc #導入document程式庫並在程式中命名(簡寫)為doc<br/> <br/># 利用 html 建立 canvas 超文件物件<br/>canvas = html.CANVAS(width = 400,height = 400) #將變數canvas指定為html.CANVAS(width = 400,height = 400) <br/>#意思是建立*(準備)一個400*400的空間(畫布)<br/>brython_div = doc["brython_div1"] #將變數brython_div指定為doc["brython_div1"]<br/>brython_div &lt;= canvas #將canve指定為子元素加入倒brython_div中<br/> <br/># 每一格的 pixel 數<br/>gs = 200<br/> <br/># gs*tc = canvas width and height<br/> <br/>ctx = canvas.getContext("2d") #將ctx指定(簡寫)為canvas.getContext("2d") (獲取畫布（canvas）的 2D 繪圖上下文 (context))<br/>width=1 #方形的寬<br/>height=1 #方形的高<br/> <br/>#第一個方形<br/>for i in range(width): <br/> for j in range(height):<br/> #dRect(i*gs, j*gs, gs, gs, 1, "lightgrey")<br/> ctx.lineWidth=1<br/> ctx.strokeStyle='red'<br/> ctx.beginPath();<br/> ctx.rect(i*gs,j*gs,gs,gs)<br/> ctx.stroke();<br/> <br/>#第二個偏移的方形<br/>for i in range(width): <br/> for j in range(height):<br/> #dRect(i*gs, j*gs, gs, gs, 1, "lightgrey")<br/> ctx.lineWidth=1<br/> ctx.strokeStyle='red'<br/> ctx.beginPath();<br/> ctx.rect(i*gs+100,j*gs+100,gs,gs) #gs+100代表往右下偏移100像素<br/> ctx.stroke();<br/></span></p>
+<p><span></span></p>
+<p><span>w13 <a href="https://mdecp2024.github.io/hw-41124116/content/Brython.html?src=https://gist.githubusercontent.com/41124116/4f9faf77ac733eb66e95d74700c265fe/raw/977661edf7d87d9dee91e060cd77ca52c42b6c75/w13%25E4%25BD%259C%25E6%25A5%25AD">作業</a></span></p><h3>w14_hw</h3>
 <h3>w15</h3>
 <p>題目一:<a href="https://mdecp2024.github.io/hw-41124116/content/Brython.html?src=https://gist.githubusercontent.com/41124116/aa40343584cf2d2f566cfc99d3f1f3b6/raw/83db24159f113247988ac115e0fb0f5f80b563d1/41124116.py">從 1 累加到 100</a></p>
 <p><span>程式語法:</span></p>
